@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target drawer[0m
+[ 50%] Built target position_talker
+[ 75%] [32mBuilding CXX object CMakeFiles/drawer.dir/src/drawer.cpp.o[0m
+[01m[K/home/pai/tugas2/src/turtle_house/src/drawer.cpp:[m[K In member function ‘[01m[Kvoid Drawer::[01;32m[Kset_pen[m[K(bool)[m[K’:
+[01m[K/home/pai/tugas2/src/turtle_house/src/drawer.cpp:106:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto request[m[K’
+  106 |         auto [01;31m[Krequest[m[K = std::make_shared<turtlesim::srv::SetPen::Request>();
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/home/pai/tugas2/src/turtle_house/src/drawer.cpp:104:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<turtlesim::srv::SetPen_Request_<std::allocator<void> > > request[m[K’
+  104 |         auto [01;36m[Krequest[m[K = std::make_shared<turtlesim::srv::SetPen::Request>();
+      |              [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/drawer.dir/build.make:76: CMakeFiles/drawer.dir/src/drawer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/drawer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

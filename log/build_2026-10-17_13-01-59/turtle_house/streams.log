@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[0.056s] [ 50%] Built target position_talker
+[0.061s] [ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[3.754s] [100%] [32m[1mLinking CXX executable draw_house[0m
+[3.936s] [100%] Built target draw_house
+[3.946s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+[3.955s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pai/tugas2/build/turtle_house
+[3.961s] -- Install configuration: ""
+[3.961s] -- Installing: /home/pai/tugas2/install/turtle_house/lib/turtle_house/draw_house
+[3.963s] -- Set runtime path of "/home/pai/tugas2/install/turtle_house/lib/turtle_house/draw_house" to ""
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/lib/turtle_house/position_talker
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/package_run_dependencies/turtle_house
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/parent_prefix_path/turtle_house
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/ament_prefix_path.sh
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/ament_prefix_path.dsv
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/path.sh
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/path.dsv
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.bash
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.sh
+[3.964s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.zsh
+[3.965s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.dsv
+[3.965s] -- Installing: /home/pai/tugas2/install/turtle_house/share/turtle_house/package.dsv
+[3.965s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/packages/turtle_house
+[3.965s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/cmake/turtle_houseConfig.cmake
+[3.965s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/cmake/turtle_houseConfig-version.cmake
+[3.965s] -- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/package.xml
+[3.966s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pai/tugas2/build/turtle_house

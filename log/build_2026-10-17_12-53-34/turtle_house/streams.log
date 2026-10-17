@@ -1,0 +1,61 @@
+[0.009s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[0.057s] [ 50%] Built target position_talker
+[0.061s] [ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[1.631s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:126:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kst_x[m[K’ has not been declared
+[1.631s]   126 | void roda(HouseDrawer drawer, [01;31m[Kst_x[m[K, double st_y){
+[1.631s]       |                               [01;31m[K^~~~[m[K
+[1.631s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K roda[m[K(HouseDrawer, int, double)[m[K’:
+[1.631s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:127:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.631s]   127 |     drawer[01;31m[K->[m[Kteleport(st_x, st_y, 0.0);
+[1.631s]       |           [01;31m[K^~[m[K
+[1.634s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:127:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kst_x[m[K’ was not declared in this scope; did you mean ‘[01m[Kst_y[m[K’?
+[1.634s]   127 |     drawer->teleport([01;31m[Kst_x[m[K, st_y, 0.0);
+[1.634s]       |                      [01;31m[K^~~~[m[K
+[1.634s]       |                      [32m[Kst_y[m[K
+[1.634s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:128:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.634s]   128 |     drawer[01;31m[K->[m[Kdraw_circle(0.5, 1.0);
+[1.634s]       |           [01;31m[K^~[m[K
+[1.634s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:129:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.634s]   129 |     drawer[01;31m[K->[m[Kdraw_point(st_x, st_y + 0.5);
+[1.634s]       |           [01;31m[K^~[m[K
+[1.634s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:131:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.634s]   131 |     drawer[01;31m[K->[m[Kteleport(st_x, st_y, 0.0);
+[1.634s]       |           [01;31m[K^~[m[K
+[1.634s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:132:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.634s]   132 |     drawer[01;31m[K->[m[Kmove(1.5, 0.0, 1.0);
+[1.635s]       |           [01;31m[K^~[m[K
+[1.635s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:134:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.635s]   134 |     drawer[01;31m[K->[m[Kdraw_circle(0.5, 1.0);
+[1.635s]       |           [01;31m[K^~[m[K
+[1.635s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:135:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.635s]   135 |     drawer[01;31m[K->[m[Kdraw_point(st_x + 1.5, st_y+0.5);
+[1.635s]       |           [01;31m[K^~[m[K
+[1.635s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:137:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.635s]   137 |     drawer[01;31m[K->[m[Kteleport(st_x + 1.5, st_y, 0.0);
+[1.635s]       |           [01;31m[K^~[m[K
+[1.635s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:138:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.635s]   138 |     drawer[01;31m[K->[m[Kmove(1.5, 0.0, 1.0);
+[1.635s]       |           [01;31m[K^~[m[K
+[1.635s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:140:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.635s]   140 |     drawer[01;31m[K->[m[Kdraw_circle(0.5, 1.0);
+[1.635s]       |           [01;31m[K^~[m[K
+[1.635s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:141:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.635s]   141 |     drawer[01;31m[K->[m[Kdraw_point(st_x + 3.0, st_y+0.5);
+[1.635s]       |           [01;31m[K^~[m[K
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:143:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.636s]   143 |     drawer[01;31m[K->[m[Kteleport(st_x + 3.0, st_y + 1.0, 3.14159265358979323846);
+[1.636s]       |           [01;31m[K^~[m[K
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:144:11:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KHouseDrawer[m[K’
+[1.636s]   144 |     drawer[01;31m[K->[m[Kmove(1.5, 0.0, 2.0);
+[1.636s]       |           [01;31m[K^~[m[K
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:155:10:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kdrawer[m[K’ from ‘[01m[Kstd::shared_ptr<HouseDrawer>[m[K’ to ‘[01m[KHouseDrawer[m[K’
+[1.636s]   155 |     roda([01;31m[Kdrawer[m[K, st_x, st_y);
+[1.636s]       |          [01;31m[K^~~~~~[m[K
+[1.636s]       |          [01;31m[K|[m[K
+[1.636s]       |          [01;31m[Kstd::shared_ptr<HouseDrawer>[m[K
+[2.406s] gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+[2.407s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+[2.407s] gmake: *** [Makefile:146: all] Error 2
+[2.409s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12

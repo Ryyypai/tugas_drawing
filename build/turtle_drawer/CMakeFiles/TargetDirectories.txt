@@ -1,0 +1,11 @@
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/uninstall.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/turtle_drawer_uninstall.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/drawer.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/position_talker.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/test.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/edit_cache.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/rebuild_cache.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/list_install_components.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/install.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/install/local.dir
+/home/pai/tugas2/build/turtle_drawer/CMakeFiles/install/strip.dir

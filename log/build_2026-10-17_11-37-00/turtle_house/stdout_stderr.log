@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[ 50%] Built target position_talker
+[ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:94:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kteleport_client_[m[K’ does not name a type
+   94 |     [01;31m[Kteleport_client_[m[K =
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

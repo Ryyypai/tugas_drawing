@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000623] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000722] (-) JobUnselected: {'identifier': 'turtle_control'}
+[0.000791] (turtle_house) JobQueued: {'identifier': 'turtle_house', 'dependencies': OrderedDict()}
+[0.000810] (turtle_house) JobStarted: {'identifier': 'turtle_house'}
+[0.006656] (turtle_house) JobProgress: {'identifier': 'turtle_house', 'progress': 'cmake'}
+[0.007055] (turtle_house) JobProgress: {'identifier': 'turtle_house', 'progress': 'build'}
+[0.007524] (turtle_house) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pai/tugas2/build/turtle_house', '--', '-j12', '-l12'], 'cwd': '/home/pai/tugas2/build/turtle_house', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pai'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '28264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pai/tugas2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook:@/tmp/.ICE-unix/1549,unix/vivobook:/tmp/.ICE-unix/1549'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1db3a7e2_f959_4a9f_81ac_6ddcee4c99f4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3M5JX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.356'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pai/tugas2/install/turtle_house:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pai/tugas2/build/turtle_house'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pai/tugas2/install/turtle_house:/opt/ros/humble')]), 'shell': False}
+[0.044402] (turtle_house) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drawer\x1b[0m\n'}
+[0.055459] (turtle_house) StdoutLine: {'line': b'[ 50%] Built target position_talker\n'}
+[0.060025] (turtle_house) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/drawer.dir/src/drawer.cpp.o\x1b[0m\n'}
+[0.099805] (-) TimerEvent: {}
+[0.200089] (-) TimerEvent: {}
+[0.300388] (-) TimerEvent: {}
+[0.400710] (-) TimerEvent: {}
+[0.501236] (-) TimerEvent: {}
+[0.601609] (-) TimerEvent: {}
+[0.701920] (-) TimerEvent: {}
+[0.802229] (-) TimerEvent: {}
+[0.902570] (-) TimerEvent: {}
+[1.002863] (-) TimerEvent: {}
+[1.103151] (-) TimerEvent: {}
+[1.203424] (-) TimerEvent: {}
+[1.303711] (-) TimerEvent: {}
+[1.404005] (-) TimerEvent: {}
+[1.504278] (-) TimerEvent: {}
+[1.604568] (-) TimerEvent: {}
+[1.704840] (-) TimerEvent: {}
+[1.805110] (-) TimerEvent: {}
+[1.905392] (-) TimerEvent: {}
+[2.005687] (-) TimerEvent: {}
+[2.105959] (-) TimerEvent: {}
+[2.206229] (-) TimerEvent: {}
+[2.306541] (-) TimerEvent: {}
+[2.406844] (-) TimerEvent: {}
+[2.507150] (-) TimerEvent: {}
+[2.607439] (-) TimerEvent: {}
+[2.707725] (-) TimerEvent: {}
+[2.808009] (-) TimerEvent: {}
+[2.908301] (-) TimerEvent: {}
+[3.008620] (-) TimerEvent: {}
+[3.108909] (-) TimerEvent: {}
+[3.209193] (-) TimerEvent: {}
+[3.309481] (-) TimerEvent: {}
+[3.409769] (-) TimerEvent: {}
+[3.510054] (-) TimerEvent: {}
+[3.610343] (-) TimerEvent: {}
+[3.710653] (-) TimerEvent: {}
+[3.810957] (-) TimerEvent: {}
+[3.911532] (-) TimerEvent: {}
+[4.012003] (-) TimerEvent: {}
+[4.112302] (-) TimerEvent: {}
+[4.212595] (-) TimerEvent: {}
+[4.312889] (-) TimerEvent: {}
+[4.413163] (-) TimerEvent: {}
+[4.513438] (-) TimerEvent: {}
+[4.613833] (-) TimerEvent: {}
+[4.714125] (-) TimerEvent: {}
+[4.814411] (-) TimerEvent: {}
+[4.914721] (-) TimerEvent: {}
+[5.015030] (-) TimerEvent: {}
+[5.115306] (-) TimerEvent: {}
+[5.215593] (-) TimerEvent: {}
+[5.315872] (-) TimerEvent: {}
+[5.416145] (-) TimerEvent: {}
+[5.516422] (-) TimerEvent: {}
+[5.616694] (-) TimerEvent: {}
+[5.716957] (-) TimerEvent: {}
+[5.817261] (-) TimerEvent: {}
+[5.917553] (-) TimerEvent: {}
+[6.017865] (-) TimerEvent: {}
+[6.118229] (-) TimerEvent: {}
+[6.218559] (-) TimerEvent: {}
+[6.318845] (-) TimerEvent: {}
+[6.419124] (-) TimerEvent: {}
+[6.519417] (-) TimerEvent: {}
+[6.619697] (-) TimerEvent: {}
+[6.719977] (-) TimerEvent: {}
+[6.820276] (-) TimerEvent: {}
+[6.920595] (-) TimerEvent: {}
+[6.937427] (turtle_house) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drawer\x1b[0m\n'}
+[7.020702] (-) TimerEvent: {}
+[7.120995] (-) TimerEvent: {}
+[7.221282] (-) TimerEvent: {}
+[7.244584] (turtle_house) StdoutLine: {'line': b'[100%] Built target drawer\n'}
+[7.255172] (turtle_house) CommandEnded: {'returncode': 0}
+[7.255671] (turtle_house) JobProgress: {'identifier': 'turtle_house', 'progress': 'install'}
+[7.263065] (turtle_house) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pai/tugas2/build/turtle_house'], 'cwd': '/home/pai/tugas2/build/turtle_house', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pai'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '28264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pai/tugas2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook:@/tmp/.ICE-unix/1549,unix/vivobook:/tmp/.ICE-unix/1549'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1db3a7e2_f959_4a9f_81ac_6ddcee4c99f4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3M5JX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.356'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pai/tugas2/install/turtle_house:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pai/tugas2/build/turtle_house'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pai/tugas2/install/turtle_house:/opt/ros/humble')]), 'shell': False}
+[7.269450] (turtle_house) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.269655] (turtle_house) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_house/lib/turtle_house/drawer\n'}
+[7.275794] (turtle_house) StdoutLine: {'line': b'-- Set runtime path of "/home/pai/tugas2/install/turtle_house/lib/turtle_house/drawer" to ""\n'}
+[7.275964] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/lib/turtle_house/position_talker\n'}
+[7.276141] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/package_run_dependencies/turtle_house\n'}
+[7.276251] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/parent_prefix_path/turtle_house\n'}
+[7.276352] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/ament_prefix_path.sh\n'}
+[7.276461] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/ament_prefix_path.dsv\n'}
+[7.276545] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/path.sh\n'}
+[7.276595] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/path.dsv\n'}
+[7.276641] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.bash\n'}
+[7.276699] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.sh\n'}
+[7.276767] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.zsh\n'}
+[7.276829] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.dsv\n'}
+[7.276877] (turtle_house) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_house/share/turtle_house/package.dsv\n'}
+[7.276922] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/packages/turtle_house\n'}
+[7.276967] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/cmake/turtle_houseConfig.cmake\n'}
+[7.277012] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/cmake/turtle_houseConfig-version.cmake\n'}
+[7.277056] (turtle_house) StdoutLine: {'line': b'-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/package.xml\n'}
+[7.278690] (turtle_house) CommandEnded: {'returncode': 0}
+[7.291486] (turtle_house) JobEnded: {'identifier': 'turtle_house', 'rc': 0}
+[7.292020] (-) EventReactorShutdown: {}

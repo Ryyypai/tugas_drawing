@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[ 50%] Built target position_talker
+[ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K body[m[K(std::shared_ptr<HouseDrawer>, double, double)[m[K’:
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:161:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble HouseDrawer::x_now[m[K’ is private within this context
+  161 |     drawer->teleport(drawer->[01;31m[Kx_now[m[K, drawer->y_now , PI/2);
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:128:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+  128 |     double [01;36m[Kx_now[m[K = 0.0, y_now = 0.0, theta_now = 0.0;
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:161:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble HouseDrawer::y_now[m[K’ is private within this context
+  161 |     drawer->teleport(drawer->x_now, drawer->[01;31m[Ky_now[m[K , PI/2);
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:128:25:[m[K [01;36m[Knote: [m[Kdeclared private here
+  128 |     double x_now = 0.0, [01;36m[Ky_now[m[K = 0.0, theta_now = 0.0;
+      |                         [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

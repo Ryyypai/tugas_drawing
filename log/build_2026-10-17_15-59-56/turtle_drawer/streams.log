@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/pai/tugas2/build/turtle_drawer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_drawer -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target position_talker[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target drawer[0m
+[0.058s] [100%] Built target drawer
+[0.058s] [100%] Built target position_talker
+[0.067s] Invoked command in '/home/pai/tugas2/build/turtle_drawer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_drawer -- -j12 -l12
+[0.076s] Invoking command in '/home/pai/tugas2/build/turtle_drawer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pai/tugas2/build/turtle_drawer
+[0.081s] -- Install configuration: ""
+[0.081s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/drawer
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/position_talker
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/package_run_dependencies/turtle_drawer
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/parent_prefix_path/turtle_drawer
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.sh
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.dsv
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.sh
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.dsv
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.bash
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.sh
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.zsh
+[0.082s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.dsv
+[0.082s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.dsv
+[0.083s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/packages/turtle_drawer
+[0.083s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig.cmake
+[0.083s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig-version.cmake
+[0.083s] -- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.xml
+[0.084s] Invoked command in '/home/pai/tugas2/build/turtle_drawer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pai/tugas2/build/turtle_drawer

@@ -1,0 +1,18 @@
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K shell[m[K(std::shared_ptr<HouseDrawer>, double, double)[m[K’:
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:176:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kst_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+  176 | void shell(std::shared_ptr<HouseDrawer> drawer, [01;35m[Kdouble st_x[m[K, double st_y){
+      |                                                 [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:176:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kst_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+  176 | void shell(std::shared_ptr<HouseDrawer> drawer, double st_x, [01;35m[Kdouble st_y[m[K){
+      |                                                              [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:201:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+  201 |     shell(drawer, st_x + 2.25, st_y + 1.5)
+      |                                           [01;31m[K^[m[K
+      |                                           [32m[K;[m[K
+  202 | 
+  203 |     [32m[Krclcpp[m[K::shutdown();
+      |     [32m[K~~~~~~[m[K                                 
+gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

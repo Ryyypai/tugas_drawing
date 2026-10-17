@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[ 50%] Built target position_talker
+[ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K arm[m[K(std::shared_ptr<HouseDrawer>, double, double)[m[K’:
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:188:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ko[m[K’ was not declared in this scope
+  188 |     drawer->move(1.0, [01;31m[Ko[m[K.o, 0.3);
+      |                       [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

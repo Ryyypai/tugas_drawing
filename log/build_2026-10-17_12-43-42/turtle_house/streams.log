@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[0.056s] [ 50%] Built target position_talker
+[0.060s] [ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[1.656s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.656s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:137:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdrawer[m[K’
+[1.656s]   137 |     drawer->draw_point(2.0, 2.5)
+[1.656s]       |                                 [01;31m[K^[m[K
+[1.656s]       |                                 [32m[K;[m[K
+[1.656s]   138 | 
+[1.656s]   139 |     [32m[Kdrawer[m[K->set_pen(true);
+[1.656s]       |     [32m[K~~~~~~[m[K                       
+[2.471s] gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+[2.471s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+[2.471s] gmake: *** [Makefile:146: all] Error 2
+[2.473s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12

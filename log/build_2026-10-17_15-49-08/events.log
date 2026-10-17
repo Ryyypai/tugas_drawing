@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000719] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000754] (-) JobUnselected: {'identifier': 'turtle_control'}
+[0.000777] (turtle_drawer) JobQueued: {'identifier': 'turtle_drawer', 'dependencies': OrderedDict()}
+[0.000805] (turtle_drawer) JobStarted: {'identifier': 'turtle_drawer'}
+[0.006242] (turtle_drawer) JobProgress: {'identifier': 'turtle_drawer', 'progress': 'cmake'}
+[0.006642] (turtle_drawer) Command: {'cmd': ['/usr/bin/cmake', '/home/pai/tugas2/src/turtle_drawer', '-DCMAKE_INSTALL_PREFIX=/home/pai/tugas2/install/turtle_drawer'], 'cwd': '/home/pai/tugas2/build/turtle_drawer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pai'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pai'), ('OLDPWD', '/home/pai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook:@/tmp/.ICE-unix/1549,unix/vivobook:/tmp/.ICE-unix/1549'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ea4b63d_a615_467b_beab_6153294029a5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3M5JX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.377'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pai/tugas2/build/turtle_drawer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054318] (turtle_drawer) StdoutLine: {'line': b'-- The C compiler identification is GNU 14.3.0\n'}
+[0.099839] (-) TimerEvent: {}
+[0.101893] (turtle_drawer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 14.3.0\n'}
+[0.108451] (turtle_drawer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.168333] (turtle_drawer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.173779] (turtle_drawer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.173970] (turtle_drawer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.174247] (turtle_drawer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.176456] (turtle_drawer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199922] (-) TimerEvent: {}
+[0.240742] (turtle_drawer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.246263] (turtle_drawer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.246514] (turtle_drawer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.246844] (turtle_drawer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.248987] (turtle_drawer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300013] (-) TimerEvent: {}
+[0.360768] (turtle_drawer) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400113] (-) TimerEvent: {}
+[0.443052] (turtle_drawer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.474884] (turtle_drawer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.478739] (turtle_drawer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.485034] (turtle_drawer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.493925] (turtle_drawer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500184] (-) TimerEvent: {}
+[0.505563] (turtle_drawer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.538497] (turtle_drawer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.540418] (turtle_drawer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600302] (-) TimerEvent: {}
+[0.614337] (turtle_drawer) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.638358] (turtle_drawer) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.673733] (turtle_drawer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.680149] (turtle_drawer) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700381] (-) TimerEvent: {}
+[0.741489] (turtle_drawer) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.741829] (turtle_drawer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800485] (-) TimerEvent: {}
+[0.804038] (turtle_drawer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.804977] (turtle_drawer) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.845029] (turtle_drawer) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.855184] (turtle_drawer) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.900864] (-) TimerEvent: {}
+[0.934002] (turtle_drawer) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.944860] (turtle_drawer) StdoutLine: {'line': b'-- Generating done\n'}
+[0.948860] (turtle_drawer) StdoutLine: {'line': b'-- Build files have been written to: /home/pai/tugas2/build/turtle_drawer\n'}
+[0.957003] (turtle_drawer) CommandEnded: {'returncode': 0}
+[0.957562] (turtle_drawer) JobProgress: {'identifier': 'turtle_drawer', 'progress': 'build'}
+[0.958647] (turtle_drawer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pai/tugas2/build/turtle_drawer', '--', '-j12', '-l12'], 'cwd': '/home/pai/tugas2/build/turtle_drawer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pai'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pai'), ('OLDPWD', '/home/pai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook:@/tmp/.ICE-unix/1549,unix/vivobook:/tmp/.ICE-unix/1549'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ea4b63d_a615_467b_beab_6153294029a5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3M5JX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.377'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pai/tugas2/build/turtle_drawer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.999835] (turtle_drawer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_talker.dir/src/position_talker.cpp.o\x1b[0m\n'}
+[1.000035] (turtle_drawer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drawer.dir/src/drawer.cpp.o\x1b[0m\n'}
+[1.000927] (-) TimerEvent: {}
+[1.101438] (-) TimerEvent: {}
+[1.202093] (-) TimerEvent: {}
+[1.302728] (-) TimerEvent: {}
+[1.403048] (-) TimerEvent: {}
+[1.503345] (-) TimerEvent: {}
+[1.603885] (-) TimerEvent: {}
+[1.704180] (-) TimerEvent: {}
+[1.804478] (-) TimerEvent: {}
+[1.904787] (-) TimerEvent: {}
+[2.005088] (-) TimerEvent: {}
+[2.105701] (-) TimerEvent: {}
+[2.206464] (-) TimerEvent: {}
+[2.307089] (-) TimerEvent: {}
+[2.407851] (-) TimerEvent: {}
+[2.508394] (-) TimerEvent: {}
+[2.608978] (-) TimerEvent: {}
+[2.709583] (-) TimerEvent: {}
+[2.810168] (-) TimerEvent: {}
+[2.910466] (-) TimerEvent: {}
+[3.010780] (-) TimerEvent: {}
+[3.111084] (-) TimerEvent: {}
+[3.211383] (-) TimerEvent: {}
+[3.311995] (-) TimerEvent: {}
+[3.412589] (-) TimerEvent: {}
+[3.512889] (-) TimerEvent: {}
+[3.613187] (-) TimerEvent: {}
+[3.713531] (-) TimerEvent: {}
+[3.813846] (-) TimerEvent: {}
+[3.914145] (-) TimerEvent: {}
+[4.014453] (-) TimerEvent: {}
+[4.115149] (-) TimerEvent: {}
+[4.215451] (-) TimerEvent: {}
+[4.315757] (-) TimerEvent: {}
+[4.416067] (-) TimerEvent: {}
+[4.516689] (-) TimerEvent: {}
+[4.617290] (-) TimerEvent: {}
+[4.717945] (-) TimerEvent: {}
+[4.818581] (-) TimerEvent: {}
+[4.918975] (-) TimerEvent: {}
+[5.019591] (-) TimerEvent: {}
+[5.119896] (-) TimerEvent: {}
+[5.220186] (-) TimerEvent: {}
+[5.320464] (-) TimerEvent: {}
+[5.420761] (-) TimerEvent: {}
+[5.521059] (-) TimerEvent: {}
+[5.621353] (-) TimerEvent: {}
+[5.721656] (-) TimerEvent: {}
+[5.822228] (-) TimerEvent: {}
+[5.922817] (-) TimerEvent: {}
+[6.023110] (-) TimerEvent: {}
+[6.123411] (-) TimerEvent: {}
+[6.223703] (-) TimerEvent: {}
+[6.323989] (-) TimerEvent: {}
+[6.424279] (-) TimerEvent: {}
+[6.524575] (-) TimerEvent: {}
+[6.624865] (-) TimerEvent: {}
+[6.688822] (turtle_drawer) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable position_talker\x1b[0m\n'}
+[6.724976] (-) TimerEvent: {}
+[6.825281] (-) TimerEvent: {}
+[6.925577] (-) TimerEvent: {}
+[6.945265] (turtle_drawer) StdoutLine: {'line': b'[ 75%] Built target position_talker\n'}
+[7.025683] (-) TimerEvent: {}
+[7.126030] (-) TimerEvent: {}
+[7.226384] (-) TimerEvent: {}
+[7.326670] (-) TimerEvent: {}
+[7.426949] (-) TimerEvent: {}
+[7.527231] (-) TimerEvent: {}
+[7.627551] (-) TimerEvent: {}
+[7.727854] (-) TimerEvent: {}
+[7.828198] (-) TimerEvent: {}
+[7.928533] (-) TimerEvent: {}
+[7.931439] (turtle_drawer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drawer\x1b[0m\n'}
+[8.028633] (-) TimerEvent: {}
+[8.128952] (-) TimerEvent: {}
+[8.229269] (-) TimerEvent: {}
+[8.237739] (turtle_drawer) StdoutLine: {'line': b'[100%] Built target drawer\n'}
+[8.247297] (turtle_drawer) CommandEnded: {'returncode': 0}
+[8.247864] (turtle_drawer) JobProgress: {'identifier': 'turtle_drawer', 'progress': 'install'}
+[8.255407] (turtle_drawer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pai/tugas2/build/turtle_drawer'], 'cwd': '/home/pai/tugas2/build/turtle_drawer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pai'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pai'), ('OLDPWD', '/home/pai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook:@/tmp/.ICE-unix/1549,unix/vivobook:/tmp/.ICE-unix/1549'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ea4b63d_a615_467b_beab_6153294029a5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3M5JX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.377'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pai/tugas2/build/turtle_drawer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.262092] (turtle_drawer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.262354] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/drawer\n'}
+[8.266922] (turtle_drawer) StdoutLine: {'line': b'-- Set runtime path of "/home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/drawer" to ""\n'}
+[8.267059] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/position_talker\n'}
+[8.271020] (turtle_drawer) StdoutLine: {'line': b'-- Set runtime path of "/home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/position_talker" to ""\n'}
+[8.271179] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/package_run_dependencies/turtle_drawer\n'}
+[8.271363] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/parent_prefix_path/turtle_drawer\n'}
+[8.271638] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.sh\n'}
+[8.271819] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.dsv\n'}
+[8.271977] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.sh\n'}
+[8.272113] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.dsv\n'}
+[8.272249] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.bash\n'}
+[8.272388] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.sh\n'}
+[8.272725] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.zsh\n'}
+[8.272794] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.dsv\n'}
+[8.272866] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.dsv\n'}
+[8.273010] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/packages/turtle_drawer\n'}
+[8.273171] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig.cmake\n'}
+[8.273292] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig-version.cmake\n'}
+[8.273426] (turtle_drawer) StdoutLine: {'line': b'-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.xml\n'}
+[8.275168] (turtle_drawer) CommandEnded: {'returncode': 0}
+[8.287487] (turtle_drawer) JobEnded: {'identifier': 'turtle_drawer', 'rc': 0}
+[8.287981] (-) EventReactorShutdown: {}

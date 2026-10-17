@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target position_talker[0m
+[35m[1mConsolidate compiler generated dependencies of target drawer[0m
+[100%] Built target drawer
+[100%] Built target position_talker
+-- Install configuration: ""
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/drawer
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/position_talker
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/package_run_dependencies/turtle_drawer
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/parent_prefix_path/turtle_drawer
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.sh
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.dsv
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.bash
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.sh
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.zsh
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.dsv
+-- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.dsv
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/packages/turtle_drawer
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig.cmake
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig-version.cmake
+-- Up-to-date: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.xml

@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pai/tugas2/src/turtle_house -DCMAKE_INSTALL_PREFIX=/home/pai/tugas2/install/turtle_house
+[0.104s] -- The C compiler identification is GNU 14.3.0
+[0.182s] -- The CXX compiler identification is GNU 14.3.0
+[0.190s] -- Detecting C compiler ABI info
+[0.252s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.331s] -- Detecting CXX compiler ABI info - done
+[0.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.337s] -- Detecting CXX compile features - done
+[0.344s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.537s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.580s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.585s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.594s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.667s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.750s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.772s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.814s] -- Looking for pthread.h
+[0.880s] -- Looking for pthread.h - found
+[0.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.947s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.948s] -- Found Threads: TRUE  
+[0.997s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.057s] -- Configuring done
+[1.060s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[1.060s]   Cannot find source file:
+[1.060s] 
+[1.060s]     src/draw_house.cpp
+[1.060s] 
+[1.060s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.060s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.060s] 
+[1.060s] [0m
+[1.061s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[1.061s]   No SOURCES given to target: draw_house
+[1.061s] 
+[1.061s] [0m
+[1.061s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.070s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pai/tugas2/src/turtle_house -DCMAKE_INSTALL_PREFIX=/home/pai/tugas2/install/turtle_house

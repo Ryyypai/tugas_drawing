@@ -1,0 +1,2 @@
+Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+Invoked command in '/home/pai/tugas2/build/turtle_house' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12

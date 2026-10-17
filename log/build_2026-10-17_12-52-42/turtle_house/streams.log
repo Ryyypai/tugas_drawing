@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[0.055s] [ 50%] Built target position_talker
+[0.061s] [ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[1.698s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K roda[m[K(double, double)[m[K’:
+[1.699s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrawer[m[K’ was not declared in this scope
+[1.699s]   127 |     [01;31m[Kdrawer[m[K->teleport(st_x, st_y, 0.0);
+[1.699s]       |     [01;31m[K^~~~~~[m[K
+[1.701s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:127:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kst_y[m[K’ was not declared in this scope; did you mean ‘[01m[Kst_x[m[K’?
+[1.701s]   127 |     drawer->teleport(st_x, [01;31m[Kst_y[m[K, 0.0);
+[1.701s]       |                            [01;31m[K^~~~[m[K
+[1.701s]       |                            [32m[Kst_x[m[K
+[1.706s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:126:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksr_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+[1.706s]   126 | void roda(double st_x, [01;35m[Kdouble sr_y[m[K){
+[1.706s]       |                        [01;35m[K~~~~~~~^~~~[m[K
+[2.531s] gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+[2.532s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+[2.532s] gmake: *** [Makefile:146: all] Error 2
+[2.534s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12

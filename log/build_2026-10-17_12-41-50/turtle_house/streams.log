@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[0.055s] [ 50%] Built target position_talker
+[0.060s] [ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[1.629s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In member function ‘[01m[Kvoid HouseDrawer::[01;32m[Kdraw_point[m[K(double, double)[m[K’:
+[1.629s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrawer[m[K’ was not declared in this scope
+[1.629s]   110 |         [01;31m[Kdrawer[m[K->set_pen(true);
+[1.629s]       |         [01;31m[K^~~~~~[m[K
+[1.635s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.635s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:137:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHouseDrawer::draw_point(double, double, double)[m[K’
+[1.635s]   137 |     [01;31m[Kdrawer->draw_point(2.0, 2.5, 0.0)[m[K
+[1.635s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:109:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid HouseDrawer::[01;32m[Kdraw_point[m[K(double, double)[m[K’
+[1.636s]   109 |     void [01;36m[Kdraw_point[m[K(double x, double y){
+[1.636s]       |          [01;36m[K^~~~~~~~~~[m[K
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:109:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:147:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHouseDrawer::draw_point(double, double, double)[m[K’
+[1.636s]   147 |     [01;31m[Kdrawer->draw_point(3.5, 2.5, 0.0)[m[K;
+[1.636s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:109:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid HouseDrawer::[01;32m[Kdraw_point[m[K(double, double)[m[K’
+[1.636s]   109 |     void [01;36m[Kdraw_point[m[K(double x, double y){
+[1.636s]       |          [01;36m[K^~~~~~~~~~[m[K
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:109:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[1.636s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:157:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHouseDrawer::draw_point(double, double, double)[m[K’
+[1.636s]   157 |     [01;31m[Kdrawer->draw_point(5.0, 2.5, 0.0)[m[K;
+[1.637s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[1.637s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:109:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid HouseDrawer::[01;32m[Kdraw_point[m[K(double, double)[m[K’
+[1.637s]   109 |     void [01;36m[Kdraw_point[m[K(double x, double y){
+[1.637s]       |          [01;36m[K^~~~~~~~~~[m[K
+[1.637s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:109:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[2.420s] gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+[2.421s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+[2.421s] gmake: *** [Makefile:146: all] Error 2
+[2.423s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12

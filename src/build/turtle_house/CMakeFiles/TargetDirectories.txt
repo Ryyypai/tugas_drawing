@@ -1,0 +1,11 @@
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/uninstall.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/turtle_house_uninstall.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/draw_house.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/position_talker.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/test.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/edit_cache.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/rebuild_cache.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/list_install_components.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/install.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/install/local.dir
+/home/pai/tugas2/src/build/turtle_house/CMakeFiles/install/strip.dir

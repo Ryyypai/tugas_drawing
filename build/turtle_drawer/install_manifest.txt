@@ -1,0 +1,17 @@
+/home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/drawer
+/home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/position_talker
+/home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/package_run_dependencies/turtle_drawer
+/home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/parent_prefix_path/turtle_drawer
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.sh
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.dsv
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.sh
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.dsv
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.bash
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.sh
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.zsh
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.dsv
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.dsv
+/home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/packages/turtle_drawer
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig.cmake
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig-version.cmake
+/home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.xml

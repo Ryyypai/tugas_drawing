@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target position_talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[ 75%] Built target position_talker
+[100%] [32m[1mLinking CXX executable draw_house[0m
+[100%] Built target draw_house
+-- Install configuration: ""
+-- Installing: /home/pai/tugas2/install/turtle_house/lib/turtle_house/draw_house
+-- Set runtime path of "/home/pai/tugas2/install/turtle_house/lib/turtle_house/draw_house" to ""
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/lib/turtle_house/position_talker
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/package_run_dependencies/turtle_house
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/parent_prefix_path/turtle_house
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/path.sh
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/environment/path.dsv
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.bash
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.sh
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.zsh
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/local_setup.dsv
+-- Installing: /home/pai/tugas2/install/turtle_house/share/turtle_house/package.dsv
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/ament_index/resource_index/packages/turtle_house
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/cmake/turtle_houseConfig.cmake
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/cmake/turtle_houseConfig-version.cmake
+-- Up-to-date: /home/pai/tugas2/install/turtle_house/share/turtle_house/package.xml

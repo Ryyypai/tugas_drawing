@@ -1,0 +1,50 @@
+[0.008s] Invoking command in '/home/pai/tugas2/src/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pai/tugas2/src/turtle_house -DCMAKE_INSTALL_PREFIX=/home/pai/tugas2/src/install/turtle_house
+[0.054s] -- The C compiler identification is GNU 14.3.0
+[0.099s] -- The CXX compiler identification is GNU 14.3.0
+[0.105s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.431s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.466s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.478s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.536s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.538s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.611s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.633s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.673s] -- Looking for pthread.h
+[0.735s] -- Looking for pthread.h - found
+[0.735s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.797s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.798s] -- Found Threads: TRUE  
+[0.839s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.897s] -- Configuring done
+[0.907s] -- Generating done
+[0.911s] -- Build files have been written to: /home/pai/tugas2/src/build/turtle_house
+[0.920s] Invoked command in '/home/pai/tugas2/src/build/turtle_house' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pai/tugas2/src/turtle_house -DCMAKE_INSTALL_PREFIX=/home/pai/tugas2/src/install/turtle_house
+[0.921s] Invoking command in '/home/pai/tugas2/src/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/src/build/turtle_house -- -j12 -l12
+[0.963s] [ 50%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[0.963s] [ 50%] [32mBuilding CXX object CMakeFiles/position_talker.dir/src/position_talker.cpp.o[0m
+[1.204s] [01m[K/home/pai/tugas2/src/turtle_house/src/position_talker.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+[1.204s]     4 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+[1.204s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.204s] compilation terminated.
+[1.213s] gmake[2]: *** [CMakeFiles/position_talker.dir/build.make:76: CMakeFiles/position_talker.dir/src/position_talker.cpp.o] Error 1
+[1.213s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/position_talker.dir/all] Error 2
+[1.213s] gmake[1]: *** Waiting for unfinished jobs....
+[3.730s] [ 75%] [32m[1mLinking CXX executable draw_house[0m
+[3.856s] [ 75%] Built target draw_house
+[3.857s] gmake: *** [Makefile:146: all] Error 2
+[3.860s] Invoked command in '/home/pai/tugas2/src/build/turtle_house' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/src/build/turtle_house -- -j12 -l12

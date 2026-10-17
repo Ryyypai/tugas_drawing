@@ -1,0 +1,67 @@
+[0.008s] Invoking command in '/home/pai/tugas2/build/turtle_drawer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pai/tugas2/src/turtle_drawer -DCMAKE_INSTALL_PREFIX=/home/pai/tugas2/install/turtle_drawer
+[0.054s] -- The C compiler identification is GNU 14.3.0
+[0.101s] -- The CXX compiler identification is GNU 14.3.0
+[0.108s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.248s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.360s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.442s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.474s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.478s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.484s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.540s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.614s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.638s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.673s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.679s] -- Looking for pthread.h
+[0.741s] -- Looking for pthread.h - found
+[0.741s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.804s] -- Found Threads: TRUE  
+[0.844s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.854s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.933s] -- Configuring done
+[0.944s] -- Generating done
+[0.948s] -- Build files have been written to: /home/pai/tugas2/build/turtle_drawer
+[0.956s] Invoked command in '/home/pai/tugas2/build/turtle_drawer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pai/tugas2/src/turtle_drawer -DCMAKE_INSTALL_PREFIX=/home/pai/tugas2/install/turtle_drawer
+[0.958s] Invoking command in '/home/pai/tugas2/build/turtle_drawer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_drawer -- -j12 -l12
+[0.999s] [ 50%] [32mBuilding CXX object CMakeFiles/position_talker.dir/src/position_talker.cpp.o[0m
+[0.999s] [ 50%] [32mBuilding CXX object CMakeFiles/drawer.dir/src/drawer.cpp.o[0m
+[6.688s] [ 75%] [32m[1mLinking CXX executable position_talker[0m
+[6.945s] [ 75%] Built target position_talker
+[7.931s] [100%] [32m[1mLinking CXX executable drawer[0m
+[8.237s] [100%] Built target drawer
+[8.247s] Invoked command in '/home/pai/tugas2/build/turtle_drawer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_drawer -- -j12 -l12
+[8.255s] Invoking command in '/home/pai/tugas2/build/turtle_drawer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pai/tugas2/build/turtle_drawer
+[8.261s] -- Install configuration: ""
+[8.262s] -- Installing: /home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/drawer
+[8.266s] -- Set runtime path of "/home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/drawer" to ""
+[8.266s] -- Installing: /home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/position_talker
+[8.270s] -- Set runtime path of "/home/pai/tugas2/install/turtle_drawer/lib/turtle_drawer/position_talker" to ""
+[8.270s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/package_run_dependencies/turtle_drawer
+[8.271s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/parent_prefix_path/turtle_drawer
+[8.271s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.sh
+[8.271s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/ament_prefix_path.dsv
+[8.271s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.sh
+[8.271s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/environment/path.dsv
+[8.271s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.bash
+[8.272s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.sh
+[8.272s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.zsh
+[8.272s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/local_setup.dsv
+[8.272s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.dsv
+[8.272s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/ament_index/resource_index/packages/turtle_drawer
+[8.272s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig.cmake
+[8.272s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/cmake/turtle_drawerConfig-version.cmake
+[8.273s] -- Installing: /home/pai/tugas2/install/turtle_drawer/share/turtle_drawer/package.xml
+[8.275s] Invoked command in '/home/pai/tugas2/build/turtle_drawer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pai/tugas2/build/turtle_drawer

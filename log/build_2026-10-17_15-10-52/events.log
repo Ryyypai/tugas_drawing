@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000182] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000222] (-) JobUnselected: {'identifier': 'turtle_control'}
+[0.000239] (turtle_house) JobQueued: {'identifier': 'turtle_house', 'dependencies': OrderedDict()}
+[0.000508] (turtle_house) JobStarted: {'identifier': 'turtle_house'}
+[0.006424] (turtle_house) JobProgress: {'identifier': 'turtle_house', 'progress': 'cmake'}
+[0.007422] (turtle_house) JobProgress: {'identifier': 'turtle_house', 'progress': 'build'}
+[0.007455] (turtle_house) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pai/tugas2/build/turtle_house', '--', '-j12', '-l12'], 'cwd': '/home/pai/tugas2/build/turtle_house', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pai'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pai'), ('OLDPWD', '/home/pai/tugas2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '7435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pai/tugas2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook:@/tmp/.ICE-unix/1549,unix/vivobook:/tmp/.ICE-unix/1549'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71197323_ac59_4217_8395_0d53df7d27ef'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3M5JX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pai/tugas2/install/turtle_house:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pai/tugas2/build/turtle_house'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pai/tugas2/install/turtle_house:/opt/ros/humble')]), 'shell': False}
+[0.045069] (turtle_house) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_house\x1b[0m\n'}
+[0.056511] (turtle_house) StdoutLine: {'line': b'[ 50%] Built target position_talker\n'}
+[0.060555] (turtle_house) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o\x1b[0m\n'}
+[0.099826] (-) TimerEvent: {}
+[0.200125] (-) TimerEvent: {}
+[0.300430] (-) TimerEvent: {}
+[0.400765] (-) TimerEvent: {}
+[0.501031] (-) TimerEvent: {}
+[0.601335] (-) TimerEvent: {}
+[0.701697] (-) TimerEvent: {}
+[0.801991] (-) TimerEvent: {}
+[0.902275] (-) TimerEvent: {}
+[1.002560] (-) TimerEvent: {}
+[1.102859] (-) TimerEvent: {}
+[1.203146] (-) TimerEvent: {}
+[1.303440] (-) TimerEvent: {}
+[1.403742] (-) TimerEvent: {}
+[1.504045] (-) TimerEvent: {}
+[1.604719] (-) TimerEvent: {}
+[1.623859] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:16:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KHouseDrawer\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.624098] (turtle_house) StderrLine: {'line': b'   16 |     \x1b[01;31m\x1b[KHouseDrawer\x1b[m\x1b[K() : Node("house_drawer") {\n'}
+[1.624174] (turtle_house) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.655109] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint Drawer::\x1b[01;32m\x1b[KHouseDrawer\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.655311] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:16:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[1.655393] (turtle_house) StderrLine: {'line': b'   16 |     HouseDrawer() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("house_drawer") {\n'}
+[1.655467] (turtle_house) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.659346] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:34:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-return-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.659458] (turtle_house) StderrLine: {'line': b'   34 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.659532] (turtle_house) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.704815] (-) TimerEvent: {}
+[1.805111] (-) TimerEvent: {}
+[1.905410] (-) TimerEvent: {}
+[2.005710] (-) TimerEvent: {}
+[2.106001] (-) TimerEvent: {}
+[2.206289] (-) TimerEvent: {}
+[2.288549] (turtle_house) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/14/bits/stl_tempbuf.h:61\x1b[m\x1b[K,\n'}
+[2.288888] (turtle_house) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/14/memory:66\x1b[m\x1b[K,\n'}
+[2.288989] (turtle_house) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:2\x1b[m\x1b[K:\n'}
+[2.289073] (turtle_house) StderrLine: {'line': b'/usr/include/c++/14/bits/stl_construct.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid std::\x1b[01;32m\x1b[K_Construct\x1b[m\x1b[K(_Tp*, _Args&& ...) \x1b[35m\x1b[K[with _Tp = Drawer; _Args = {}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.289139] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/14/bits/alloc_traits.h:706:19:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<void> >::\x1b[01;32m\x1b[Kconstruct\x1b[m\x1b[K(allocator_type&, _Up*, _Args&& ...) \x1b[35m\x1b[K[with _Up = Drawer; _Args = {}; allocator_type = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.289195] (turtle_house) StderrLine: {'line': b'  706 |         { \x1b[01;36m\x1b[Kstd::_Construct(__p, std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.289248] (turtle_house) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.289300] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/14/bits/shared_ptr_base.h:607:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::\x1b[01;32m\x1b[K_Sp_counted_ptr_inplace\x1b[m\x1b[K(_Alloc, _Args&& ...) \x1b[35m\x1b[K[with _Args = {}; _Tp = Drawer; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.289354] (turtle_house) StderrLine: {'line': b'  607 |           \x1b[01;36m\x1b[Kallocator_traits<_Alloc>::construct(__a, _M_ptr(),\x1b[m\x1b[K\n'}
+[2.289404] (turtle_house) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.289453] (turtle_house) StderrLine: {'line': b'  608 | \x1b[01;36m\x1b[K              std::forward<_Args>(__args)...)\x1b[m\x1b[K; // might throw\n'}
+[2.289504] (turtle_house) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[2.289554] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/14/bits/shared_ptr_base.h:969:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::\x1b[01;32m\x1b[K__shared_count\x1b[m\x1b[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) \x1b[35m\x1b[K[with _Tp = Drawer; _Alloc = std::allocator<void>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.289626] (turtle_house) StderrLine: {'line': b'  969 |           auto __pi = \x1b[01;36m\x1b[K::new (__mem)\x1b[m\x1b[K\n'}
+[2.289689] (turtle_house) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.289741] (turtle_house) StderrLine: {'line': b'  970 | \x1b[01;36m\x1b[K            _Sp_cp_type(__a._M_a, std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[2.289791] (turtle_house) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.289839] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/14/bits/shared_ptr_base.h:1713:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::\x1b[01;32m\x1b[K__shared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = Drawer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.289902] (turtle_house) StderrLine: {'line': b' 1713 |         : _M_ptr(), \x1b[01;36m\x1b[K_M_refcount(_M_ptr, __tag, std::forward<_Args>(__args)...)\x1b[m\x1b[K\n'}
+[2.289953] (turtle_house) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.290011] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/14/bits/shared_ptr.h:463:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::\x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = Drawer]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.290076] (turtle_house) StderrLine: {'line': b'  463 |         : __shared_ptr<_Tp>(__tag, std::forward<_Args>(__args)...\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[2.290125] (turtle_house) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.290165] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/14/bits/shared_ptr.h:1007:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<typename std::enable_if<(! std::is_array<_Tp>::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...) \x1b[35m\x1b[K[with _Tp = Drawer; _Args = {}; typename enable_if<(! is_array<_Tp>::value), _Tp>::type = Drawer]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.290207] (turtle_house) StderrLine: {'line': b' 1007 |       return \x1b[01;36m\x1b[Kshared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},\x1b[m\x1b[K\n'}
+[2.290246] (turtle_house) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.290285] (turtle_house) StderrLine: {'line': b' 1008 | \x1b[01;36m\x1b[K                             std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[2.290324] (turtle_house) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.290363] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:217:43:\x1b[m\x1b[K   required from here\n'}
+[2.290403] (turtle_house) StderrLine: {'line': b'  217 |     auto drawer = \x1b[01;36m\x1b[Kstd::make_shared<Drawer>()\x1b[m\x1b[K;\n'}
+[2.290442] (turtle_house) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.290480] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/14/bits/stl_construct.h:119:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KDrawer::\x1b[01;32m\x1b[KDrawer\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.290520] (turtle_house) StderrLine: {'line': b'  119 |       \x1b[01;31m\x1b[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[2.290560] (turtle_house) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.290598] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:14:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDrawer::\x1b[01;32m\x1b[KDrawer\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[2.290651] (turtle_house) StderrLine: {'line': b'   14 | class \x1b[01;36m\x1b[KDrawer\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[2.290693] (turtle_house) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.290734] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:14:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.290774] (turtle_house) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.290814] (turtle_house) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.290853] (turtle_house) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.290892] (turtle_house) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:5\x1b[m\x1b[K:\n'}
+[2.290939] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const rclcpp::Node&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.290980] (turtle_house) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.291019] (turtle_house) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.291058] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[2.291097] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.291137] (turtle_house) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.291175] (turtle_house) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.291220] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[2.291260] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.291299] (turtle_house) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.291337] (turtle_house) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.291377] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[2.291418] (turtle_house) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/14/bits/stl_construct.h:119:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kuse \xe2\x80\x98\x1b[01m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/C_002b_002b-Dialect-Options.html#index-fdiagnostics-all-candidates\x07-fdiagnostics-all-candidates\x1b]8;;\x07\x1b[m\x1b[K\xe2\x80\x99 to display considered candidates\n'}
+[2.291471] (turtle_house) StderrLine: {'line': b'  119 |       \x1b[01;36m\x1b[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[2.291513] (turtle_house) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.306678] (-) TimerEvent: {}
+[2.406954] (-) TimerEvent: {}
+[2.507262] (-) TimerEvent: {}
+[2.607549] (-) TimerEvent: {}
+[2.707847] (-) TimerEvent: {}
+[2.808131] (-) TimerEvent: {}
+[2.908417] (-) TimerEvent: {}
+[3.008704] (-) TimerEvent: {}
+[3.108988] (-) TimerEvent: {}
+[3.209270] (-) TimerEvent: {}
+[3.309552] (-) TimerEvent: {}
+[3.409848] (-) TimerEvent: {}
+[3.510134] (-) TimerEvent: {}
+[3.555157] (turtle_house) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1\n'}
+[3.555453] (turtle_house) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2\n'}
+[3.555748] (turtle_house) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.558042] (turtle_house) CommandEnded: {'returncode': 2}
+[3.566130] (turtle_house) JobEnded: {'identifier': 'turtle_house', 'rc': 2}
+[3.576651] (-) EventReactorShutdown: {}

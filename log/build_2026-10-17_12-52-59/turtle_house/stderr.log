@@ -1,0 +1,7 @@
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K roda[m[K(double, double)[m[K’:
+[01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrawer[m[K’ was not declared in this scope
+  127 |     [01;31m[Kdrawer[m[K->teleport(st_x, st_y, 0.0);
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

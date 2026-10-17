@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+[0.028s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.121s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.142s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.144s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.148s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.187s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.188s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.270s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.306s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.362s] -- Configuring done
+[0.372s] -- Generating done
+[0.376s] -- Build files have been written to: /home/pai/tugas2/build/turtle_house
+[0.400s] [35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[0.407s] [ 25%] [32mBuilding CXX object CMakeFiles/position_talker.dir/src/position_talker.cpp.o[0m
+[0.415s] [ 50%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[0.650s] [01m[K/home/pai/tugas2/src/turtle_house/src/position_talker.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+[0.650s]     4 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+[0.650s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.650s] compilation terminated.
+[0.658s] gmake[2]: *** [CMakeFiles/position_talker.dir/build.make:76: CMakeFiles/position_talker.dir/src/position_talker.cpp.o] Error 1
+[0.659s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/position_talker.dir/all] Error 2
+[0.659s] gmake[1]: *** Waiting for unfinished jobs....
+[3.195s] [ 75%] [32m[1mLinking CXX executable draw_house[0m
+[3.318s] [ 75%] Built target draw_house
+[3.319s] gmake: *** [Makefile:146: all] Error 2
+[3.321s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12

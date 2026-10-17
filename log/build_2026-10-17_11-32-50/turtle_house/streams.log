@@ -1,0 +1,12 @@
+[0.008s] Invoking command in '/home/pai/tugas2/build/turtle_house': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target draw_house[0m
+[0.055s] [ 50%] Built target position_talker
+[0.059s] [ 75%] [32mBuilding CXX object CMakeFiles/draw_house.dir/src/draw_house.cpp.o[0m
+[0.300s] [01m[K/home/pai/tugas2/src/turtle_house/src/draw_house.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/srv/teleport_absolute.hpp: No such file or directory
+[0.300s]     7 | #include [01;31m[K"turtlesim/srv/teleport_absolute.hpp"[m[K
+[0.300s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.300s] compilation terminated.
+[0.308s] gmake[2]: *** [CMakeFiles/draw_house.dir/build.make:76: CMakeFiles/draw_house.dir/src/draw_house.cpp.o] Error 1
+[0.308s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/draw_house.dir/all] Error 2
+[0.309s] gmake: *** [Makefile:146: all] Error 2
+[0.311s] Invoked command in '/home/pai/tugas2/build/turtle_house' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pai/tugas2/build/turtle_house -- -j12 -l12
